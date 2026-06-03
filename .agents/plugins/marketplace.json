@@ -1,0 +1,20 @@
+{
+  "name": "codex-plugins",
+  "interface": {
+    "displayName": "Aaron Friel Codex Plugins"
+  },
+  "plugins": [
+    {
+      "name": "plans-md",
+      "source": {
+        "source": "local",
+        "path": "./plugins/plans-md"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
