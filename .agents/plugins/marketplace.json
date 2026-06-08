@@ -6,9 +6,17 @@
   "plugins": [
     {
       "name": "plans-md",
+      "displayName": "PLANS.md",
+      "description": "Make Codex get work done with concrete plan.md and record.md files.",
+      "keywords": [
+        "plans",
+        "planning",
+        "codex"
+      ],
       "source": {
-        "source": "local",
-        "path": "./plugins/plans-md"
+        "source": "url",
+        "url": "AaronFriel/plans.md",
+        "ref": "main"
       },
       "policy": {
         "installation": "AVAILABLE",

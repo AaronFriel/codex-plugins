@@ -1,15 +1,24 @@
 # Codex Plugins
 
-A Codex plugin marketplace.
+A Codex plugin marketplace for Aaron Friel's Codex plugins.
 
-Add it in Codex:
+## Install With Codex CLI
+
+```sh
+codex plugin marketplace add AaronFriel/codex-plugins --ref main
+codex plugin add plans-md@codex-plugins
+```
+
+## Install With Codex App
+
+In Codex App, add a marketplace:
 
 - Source: `AaronFriel/codex-plugins`
 - Git ref: `main`
 - Sparse paths: leave empty
 
+Then install `PLANS.md` from the marketplace.
+
 Plugins:
 
-- `plans-md`: make Codex get work done with durable plan files.
-
-Plugin files are bundled under `plugins/` so Codex can read plugin names and descriptions before install.
+- `plans-md`: make Codex get work done with plan files.
