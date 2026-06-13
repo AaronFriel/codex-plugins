@@ -23,6 +23,27 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "skill-deslop",
+      "displayName": "Deslop",
+      "description": "Revise unclear writing into specific prose.",
+      "keywords": [
+        "writing",
+        "editing",
+        "documentation",
+        "plain-language"
+      ],
+      "source": {
+        "source": "url",
+        "url": "AaronFriel/skill-deslop",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
